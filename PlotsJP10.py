@@ -269,7 +269,7 @@ if __name__ == "__main__":
     
     EXP_Conversion_data, EXP_data = read_experimental_data(filename)
     
-    filename = 'input/Summary.csv'
+    filename = 'output/Summary.csv'
     MOD_Conversion_data, MOD_data = read_model_data(filename)
     
     dictionary = 'input/RMG_Dictionary.txt'
