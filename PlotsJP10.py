@@ -236,7 +236,7 @@ class Plotting():
         #axis labels
         ax.set_xlabel(XaxisLabel, fontsize = 14)
         ax.set_ylabel(YaxisLabel, fontsize = 14)
-    
+        ax.set_yscale('log')
         ax.grid(which='major')
         
         #ax.legend(numpoints=1,loc = 'best', fancybox = True, shadow = True, ncol = 1)
